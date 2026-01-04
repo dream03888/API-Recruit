@@ -58,8 +58,6 @@ const getApplicants = async (page = 1, limit = 10) => {
   }
 };
 
-
-
 const insert_interview = async (data) => {
   const conn = await pool.getConnection();
   console.log(data, "kkkkkkkkkkkkkkkk");
